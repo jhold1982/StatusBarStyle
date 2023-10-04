@@ -11,7 +11,9 @@ import SwiftUI
 struct StatusBarUpdateApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+			StatusBarView {
+				ContentView()
+			}
         }
     }
 }
